@@ -1,0 +1,171 @@
+
+
+@font-face {
+    font-family: "LatoRegular";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "LatoBold";
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+* {
+   font-family: "LatoRegular"; 
+   color: rgb(17, 46, 62);
+}
+
+h1 {
+    font-weight: 600px;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    font-weight: 500px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+ 
+    
+}
+
+h3 {
+    font-weight: 600px;
+    font-size: 1rem;
+    text-transform: uppercase;
+   
+}
+
+.resize {
+    width: 20%;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link .nav-link-item {
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link .nav-link-item {
+    color: white;
+}
+
+.item-marge {
+    margin-right: 100px;
+
+}
+
+.item-marge a {
+    margin: 0 5px;
+    border-right: 1px solid white;
+}
+
+#description p {
+    font-family: "RobotoRegular";
+    font-weight: 400px;
+    font-size: 0.938rem;
+    
+
+}
+
+#description h2 {
+    padding: 25px 0;
+}
+
+#icons p {
+    font-weight: 400px;
+    font-size: 1rem;
+}
+
+#icons h3 {
+    padding: 25px 0;
+ }
+
+.custom-card {
+    padding: 30px;
+}
+
+.custom-button {
+    padding-bottom: 50px;
+}
+
+
+
+a {
+    font-family: "LatoBold";
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+a.button {
+    display: inline-block;
+    background-color: rgb(46, 71, 85); 
+    padding: 20px 35px;
+    border-radius: 5px;
+}
+
+a.button:hover {
+    background-color: rgb(138, 152, 159);
+    color: white;
+}
+
+.navbar-bg {
+    background-color: rgb(17, 46, 62);
+}
+
+p.custom {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+a.footer-link {
+    display: inline-block;
+    color: white;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+
+
+footer {
+    background-color:  rgb(17, 46, 62);
+    padding: 50px;
+ 
+}
+
+
+
+.custom-adress li {
+    color: white;
+    list-style-type: none;
+    padding-left: 10px;
+    border-left: 1px solid white;
+}
+
+.custom-adress li:last-of-type {
+    padding-top: 5px;
+}
+
+.custom-icon {
+    color: rgb(17, 46, 62);
+}
+
+.icon-footer {
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.custom-date {
+    display: inline-block;
+    color: white;
+
+}
